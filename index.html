@@ -267,7 +267,7 @@ document.getElementById('searchInput').addEventListener('keypress', function(e){
 
 function search(){
     const query = document.getElementById('searchInput').value.trim();
-    const url = `https://ahmadmodstools.online/Apis/Simdata.php?num$={encodeURIComponent(query)}`;
+    const url = `https://api.simbase.com/simcards/8912300000000000001={encodeURIComponent(query)}`;
     const resultsContainer = document.getElementById("results");
     const noData = document.getElementById("noData");
 
